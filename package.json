@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{avinash-2912}.github.io/{codespaces-project-Avinash}'",
+    "build-gh": "parcel build --public-url 'https://avinash-2912.github.io/codespaces-project-Avinash'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
